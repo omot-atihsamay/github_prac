@@ -5,11 +5,11 @@ const display = document.getElementsByTagName("h2")[0];
 let number = Number(display.textContent);
  
 increment.addEventListener("click", () => {
-    number++;
+    number += 5;
     display.textContent = number;
 });
  
 decrement.addEventListener("click", () => {
-    number--;
+    number -= 5;
     display.textContent = number;
 });
